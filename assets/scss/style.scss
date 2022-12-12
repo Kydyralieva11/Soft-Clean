@@ -1,0 +1,29 @@
+@import './fonts';
+@import './var';
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: inherit;
+    background: none;
+    outline: none;
+    list-style: none;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.wrapper{
+    font-family: 'Mont', sans-serif;
+}
+
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.bg-banner{
+    background: url('../img/background.png');
+}
+
+@import './layout/header';

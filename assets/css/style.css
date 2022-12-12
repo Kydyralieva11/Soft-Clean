@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Mont";
+  src: url("../fonts/Mont-Heavy.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Mont";
+  src: url("../fonts/Mont-SemiBold.ttf");
+  font-weight: 600;
+}
+:root {
+  --color-gray-500: #959A9D;
+  --color-gray-700: #4B5258;
+  --color-green-400:#20FF87;
+  --color-blue-200: #43AAFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: inherit;
+  background: none;
+  outline: none;
+  list-style: none;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+.wrapper {
+  font-family: "Mont", sans-serif;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.bg-banner {
+  background: url("../img/background.png");
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__phone a {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: var(--color-gray-700);
+  margin-bottom: 5px;
+}
+.header__phone .phone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header__phone .phone .header-phone__dsc {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--color-gray-500);
+}
+.header__phone .phone .header-phone__icon {
+  color: var(--color-green-400);
+  width: 8px;
+}
+.header .header-logo__title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--color-blue-200);
+}
+.header .header-logo__dsc {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 140%;
+  color: var(--color-gray-500);
+  max-width: 140px;
+}
+.header .social-network {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header .social-network h2 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: right;
+  color: var(--color-gray-700);
+  max-width: 140px;
+}
+.header .header__btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: right;
+  color: var(--color-gray-700);
+  border: 1px solid var(--color-blue-200);
+  border-radius: 100px;
+  padding: 21px 25px;
+  transition: 0.6s all;
+}
+.header .header__btn:hover {
+  background: var(--color-blue-200);
+  color: white;
+  transform: scale(0.9);
+}
+
+/*# sourceMappingURL=style.css.map */
