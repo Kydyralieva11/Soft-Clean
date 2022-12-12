@@ -116,4 +116,61 @@
   transform: scale(0.9);
 }
 
+.banner-content-block {
+  max-width: 565px;
+  margin-top: 85px;
+}
+.banner-content-block .banner-content {
+  display: flex;
+  font-weight: normal;
+}
+.banner-content-block .banner-content__item {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 150%;
+  color: #4B5258;
+}
+.banner-content-block .banner-content__item span {
+  font-weight: normal;
+}
+.banner-content-block .banner-content .banner-desc {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #4B5258;
+}
+.banner-content-block .banner-content .banner-line {
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background: #43AAFF;
+  transform: translateY(-5px);
+  margin: 0 20px;
+}
+.banner-content-block .banner-item-desc {
+  margin-top: 36px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5258;
+}
+.banner-content-block .banner-btns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.banner-content-block .banner-btns button {
+  padding: 30px 50px;
+  background: #43AAFF;
+  box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  color: #fff;
+}
+.banner-content-block .banner-btns button:nth-child(2) {
+  background: #FFC24D;
+}
+
 /*# sourceMappingURL=style.css.map */
