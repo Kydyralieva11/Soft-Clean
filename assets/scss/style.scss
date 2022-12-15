@@ -23,8 +23,11 @@
 }
 
 .bg-banner{
-    background: url('../img/background.png');
+    background: url('../img/banner.png') no-repeat;
+    background-size: cover;
+    min-height: 655px;
+    width: 100%;
 }
 
 @import './layout/header';
-@import './layout/banner';
+@import './include/banner';
