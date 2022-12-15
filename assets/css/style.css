@@ -255,6 +255,14 @@
   background: var(--color-yellow-400);
 }
 
+@media screen and (max-width: 540px) {
+  .banner-btns {
+    flex-direction: column;
+  }
+  .banner-btns button {
+    width: 100%;
+  }
+}
 .about-us {
   margin-top: 72px;
 }

@@ -61,3 +61,12 @@
     }
   }
 }
+
+@media screen and (max-width: 540px) {
+  .banner-btns{
+    flex-direction: column;
+    button{
+      width: 100%;
+    }
+  }
+}
