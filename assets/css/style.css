@@ -255,4 +255,58 @@
   background: var(--color-yellow-400);
 }
 
+.about-us {
+  margin-top: 72px;
+}
+.about-us .about-us-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(247px, 1fr));
+  gap: 10px;
+}
+.about-us .about-us-content .about-us-card {
+  background: var(--color-blue-200);
+  border-radius: 30px;
+  max-width: 248px;
+  padding: 45px 25px;
+  position: relative;
+  overflow: hidden;
+}
+.about-us .about-us-content .about-us-card:nth-child(2n) {
+  background: var(--color-yellow-400);
+}
+.about-us .about-us-content .about-us-card h2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--color-white-100);
+  max-width: 127px;
+}
+.about-us .about-us-content .about-us-card img {
+  content: "";
+  position: absolute;
+  top: -21px;
+  right: -94px;
+}
+.about-us .about-us-content .about-us-card .about-img {
+  position: absolute;
+  top: 6px;
+  right: -57px;
+}
+.about-us .about-us-content .about-us-card .about-us-logo {
+  position: absolute;
+  mix-blend-mode: color-burn;
+  top: 50px;
+  right: 2px;
+}
+.about-us .about-us-content .about-us-card .about-us-gloves {
+  position: absolute;
+  top: -11px;
+  right: -93px;
+}
+.about-us .about-us-content .about-us-card .about-us-check {
+  position: absolute;
+  top: 23px;
+  right: -49px;
+}
+
 /*# sourceMappingURL=style.css.map */
