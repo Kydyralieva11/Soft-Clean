@@ -50,4 +50,29 @@
             }
         }
     }
+    .test{
+        background: var(--color-white-100);
+        box-shadow: 0px 0px 20px rgba(29, 31, 33, 0.12);
+        border-radius: 100px;
+        // padding: 28px 50px;
+        margin-top: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 73px;
+        button{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            color: var(--color-gray-700);
+            transition: .6s all;
+            background: transparent;
+        }
+        button:hover{
+            background: var(--color-blue-200);
+            color: var(--color-white-100);
+            padding: 28px 37px;
+            border-radius: 100px;
+        }
+    }
 }
