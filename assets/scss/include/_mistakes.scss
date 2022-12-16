@@ -1,0 +1,219 @@
+.mistakes{
+    background: var(--color-blue-100);
+    position: relative;
+    img{
+        position: absolute;
+        content: '';
+        top: -100px;
+        right: -3px;
+        width: 100%;
+    }
+    .mistakes-content{
+        .mistakes-btn{
+            display: flex;
+            justify-content: center;
+            button{
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 150%;
+                color: var(--color-white-100);
+                background: var(--color-yellow-400);
+                border-radius: 30px;
+                padding: 11px 47px;
+                margin-top: 35px;
+                transition: .6s all;
+            }
+            button:hover{
+                transform: scale(0.9);
+                background: #e9b95f;
+            }
+        }
+        h2{
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 150%;
+            text-align: center;
+            color: var(--color-gray-700);
+            margin-top: 20px;
+            span{
+                font-weight: 800;
+            }
+        }
+        p{
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 150%;
+            text-align: center;
+            color: var(--color-gray-500);
+            margin-top: 10px;
+        }
+    }
+    .mistakes-cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 50px;
+        .mistakes-card-first{
+            background: var(--color-white-100);
+            border-radius: 30px;
+            box-sizing: border-box;
+            padding: 35px 30px;
+            max-width: 328px;
+            overflow: hidden;
+            h2{
+                font-weight: 800;
+                font-size: 18px;
+                line-height: 140%;
+                color: var(--color-gray-700);
+                text-align: left;
+            }
+            p{
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 150%;
+                color: var(--color-gray-700);
+                max-width: 262px;
+                text-align: left;
+            }
+            .mistakes-img{
+                position: relative;
+                min-height: 160px;
+                .card-cash{
+                    position: absolute;
+                    width: 215px;
+                    height: 163px;
+                    top: -35px;
+                    left: -65px;
+                }
+                .card-check{
+                    position: absolute;
+                    width: 187px;
+                    height: 100px;
+                    top: -68px;
+                    right: -126px;
+                }
+                .card-check2{
+                    position: absolute;
+                    right: -151px;
+                    top: -15px;
+                    width: 306px;
+                    height: 177px;
+                }
+                .card-skovorodka{
+                    position: absolute;
+                    width: 196px;
+                    height: 207px;
+                    top: -77px;
+                    left: -58px;
+                }
+                .card-zapret{
+                    background-blend-mode: hard-light;
+                    opacity: 0.5;
+                    position: absolute;
+                    width: 216px;
+                    height: 216px;
+                    top: -90px;
+                    right: -51px;
+                    z-index: auto;
+                }
+                .card-comet{
+                    position: absolute;
+                    top: -31px;
+                    right: -150px;
+                }
+                .card-venik{
+                    position: absolute;
+                    width: 151px;
+                    top: -60px;
+                    right: 126px;
+                }
+                .card-graz{
+                    position: absolute;
+                    top: -27px;
+                    left: 28px;
+                }
+                .card-graz2{
+                    position: absolute;
+                    top: -26px;
+                    right: -31px;
+                }
+
+            }
+        }
+        .mistakes-card-two{
+            background: var(--color-white-100);
+            border-radius: 30px;
+            padding: 44px 10px;
+            // max-width: 655px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 52px;
+            margin-top: 20px;
+            overflow: hidden;
+            column-span: 2;
+            h2{
+                font-weight: 800;
+                font-size: 18px;
+                line-height: 140%;
+                color: var(--color-gray-700);
+                text-align: left;
+            }
+            p{
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 150%;
+                color: var(--color-gray-700);
+                max-width: 407px;
+                text-align: left;
+            }
+            .mistakes-img-two{
+                position: relative;
+                .card-clock{
+                    position: absolute;
+                    width: 190px;
+                    top: -69px;
+                    left: -157px;
+                }
+                .card-attention{
+                    position: absolute;
+                    width: 86px;
+                    top: -110px;
+                    left: -45px;
+                }
+            }
+        }
+        .mistakes-contract{
+            background: var(--color-white-100);
+            border-radius: 30px;
+            padding: 36px 35px;
+            // max-width: 257px;
+            column-span: 1;
+            margin-left: 20px;
+            width: 85%;
+            h2{
+                font-weight: 800;
+                font-size: 13px;
+                line-height: 140%;
+                color: var(--color-gray-700);
+                text-align: left;
+            }
+            p{
+                font-weight: 600;
+                font-size: 11px;
+                line-height: 150%;
+                color: var(--color-gray-700);
+                max-width: 242px;
+                text-align: left;
+            }
+            a{
+                font-weight: 600;
+                font-size: 11px;
+                line-height: 150%;
+                text-decoration-line: underline;
+                color: var(--color-gray-500);
+            }
+        }
+    }
+}

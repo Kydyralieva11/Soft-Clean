@@ -13,6 +13,7 @@
   --color-white-400: #F2F9FF;
   --color-gray-500: #959A9D;
   --color-gray-700: #4B5258;
+  --color-blue-100: #F2F9FF;
   --color-blue-200: #43AAFF;
   --color-green-400:#20FF87;
   --color-yellow-400: #FFC24D;
@@ -385,6 +386,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 43px;
+  margin-bottom: 70px;
 }
 .advertising .advertising-content .advertising-items {
   margin-left: 63px;
@@ -471,6 +473,221 @@
   position: absolute;
   right: 76px;
   bottom: 75px;
+}
+
+.mistakes {
+  background: var(--color-blue-100);
+  position: relative;
+}
+.mistakes img {
+  position: absolute;
+  content: "";
+  top: -100px;
+  right: -3px;
+  width: 100%;
+}
+.mistakes .mistakes-content .mistakes-btn {
+  display: flex;
+  justify-content: center;
+}
+.mistakes .mistakes-content .mistakes-btn button {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: var(--color-white-100);
+  background: var(--color-yellow-400);
+  border-radius: 30px;
+  padding: 11px 47px;
+  margin-top: 35px;
+  transition: 0.6s all;
+}
+.mistakes .mistakes-content .mistakes-btn button:hover {
+  transform: scale(0.9);
+  background: #e9b95f;
+}
+.mistakes .mistakes-content h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--color-gray-700);
+  margin-top: 20px;
+}
+.mistakes .mistakes-content h2 span {
+  font-weight: 800;
+}
+.mistakes .mistakes-content p {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--color-gray-500);
+  margin-top: 10px;
+}
+.mistakes .mistakes-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 50px;
+}
+.mistakes .mistakes-cards .mistakes-card-first {
+  background: var(--color-white-100);
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 35px 30px;
+  max-width: 328px;
+  overflow: hidden;
+}
+.mistakes .mistakes-cards .mistakes-card-first h2 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--color-gray-700);
+  text-align: left;
+}
+.mistakes .mistakes-cards .mistakes-card-first p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--color-gray-700);
+  max-width: 262px;
+  text-align: left;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img {
+  position: relative;
+  min-height: 160px;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img .card-cash {
+  position: absolute;
+  width: 215px;
+  height: 163px;
+  top: -35px;
+  left: -65px;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img .card-check {
+  position: absolute;
+  width: 187px;
+  height: 100px;
+  top: -68px;
+  right: -126px;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img .card-check2 {
+  position: absolute;
+  right: -151px;
+  top: -15px;
+  width: 306px;
+  height: 177px;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img .card-skovorodka {
+  position: absolute;
+  width: 196px;
+  height: 207px;
+  top: -77px;
+  left: -58px;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img .card-zapret {
+  background-blend-mode: hard-light;
+  opacity: 0.5;
+  position: absolute;
+  width: 216px;
+  height: 216px;
+  top: -90px;
+  right: -51px;
+  z-index: auto;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img .card-comet {
+  position: absolute;
+  top: -31px;
+  right: -150px;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img .card-venik {
+  position: absolute;
+  width: 151px;
+  top: -60px;
+  right: 126px;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img .card-graz {
+  position: absolute;
+  top: -27px;
+  left: 28px;
+}
+.mistakes .mistakes-cards .mistakes-card-first .mistakes-img .card-graz2 {
+  position: absolute;
+  top: -26px;
+  right: -31px;
+}
+.mistakes .mistakes-cards .mistakes-card-two {
+  background: var(--color-white-100);
+  border-radius: 30px;
+  padding: 44px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+  margin-top: 20px;
+  overflow: hidden;
+  column-span: 2;
+}
+.mistakes .mistakes-cards .mistakes-card-two h2 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--color-gray-700);
+  text-align: left;
+}
+.mistakes .mistakes-cards .mistakes-card-two p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--color-gray-700);
+  max-width: 407px;
+  text-align: left;
+}
+.mistakes .mistakes-cards .mistakes-card-two .mistakes-img-two {
+  position: relative;
+}
+.mistakes .mistakes-cards .mistakes-card-two .mistakes-img-two .card-clock {
+  position: absolute;
+  width: 190px;
+  top: -69px;
+  left: -157px;
+}
+.mistakes .mistakes-cards .mistakes-card-two .mistakes-img-two .card-attention {
+  position: absolute;
+  width: 86px;
+  top: -110px;
+  left: -45px;
+}
+.mistakes .mistakes-cards .mistakes-contract {
+  background: var(--color-white-100);
+  border-radius: 30px;
+  padding: 36px 35px;
+  column-span: 1;
+  margin-left: 20px;
+  width: 85%;
+}
+.mistakes .mistakes-cards .mistakes-contract h2 {
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 140%;
+  color: var(--color-gray-700);
+  text-align: left;
+}
+.mistakes .mistakes-cards .mistakes-contract p {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 150%;
+  color: var(--color-gray-700);
+  max-width: 242px;
+  text-align: left;
+}
+.mistakes .mistakes-cards .mistakes-contract a {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 150%;
+  text-decoration-line: underline;
+  color: var(--color-gray-500);
 }
 
 /*# sourceMappingURL=style.css.map */
