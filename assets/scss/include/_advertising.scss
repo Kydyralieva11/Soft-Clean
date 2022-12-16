@@ -126,3 +126,14 @@
         }
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .advertising{
+        &-img{
+            display: none;
+        }
+        &-bonus{
+            display: none;
+        }
+    }
+}

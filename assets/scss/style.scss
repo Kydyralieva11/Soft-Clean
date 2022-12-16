@@ -29,6 +29,12 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1400px) {
+    .bg-banner{
+        background: none
+    }
+}
+
 @import './layout/header';
 @import './include/banner';
 @import './include/about-us';

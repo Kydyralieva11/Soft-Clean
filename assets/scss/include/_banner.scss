@@ -6,7 +6,6 @@
       display: flex;
       font-weight: normal;
       &__item{
-        font-style: normal;
         font-weight: 800;
         font-size: 30px;
         line-height: 150%;
@@ -58,6 +57,29 @@
       button:nth-child(2){
         background: var(--color-yellow-400);
       }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .banner{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    .banner-content-block{
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner-content{
+    &__item{
+      font-size: 0.3125rem;
+    }
+    &__subtitle{
+      font-size: 1.25rem;
     }
   }
 }
