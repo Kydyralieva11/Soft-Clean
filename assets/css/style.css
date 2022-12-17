@@ -142,7 +142,7 @@
 }
 
 .hamburger {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -172,6 +172,10 @@
 }
 
 @media screen and (max-width: 920px) {
+  .hamburger {
+    display: flex;
+  }
+
   .header__btn {
     margin: 0;
   }
