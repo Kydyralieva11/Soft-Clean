@@ -39,7 +39,7 @@
         margin-top: 43px;
         margin-bottom: 70px;
         .advertising-items{
-            margin-left: 63px;
+            margin-left: 45px;
             h2{
                 font-weight: 600;
                 font-size: 24px;
@@ -124,6 +124,36 @@
             right: 76px;
             bottom: 75px;
         }
+    }
+}
+
+@media screen and (max-width: 980px){
+    .advertising-content{
+        padding-left: 132px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .advertising-content{
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .advertising-content{
+        padding-left: 1px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .advertising-content{
+        padding: none;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .advertising-items{
+        font-weight: normal;
     }
 }
 
