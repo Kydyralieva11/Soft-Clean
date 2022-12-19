@@ -1,7 +1,6 @@
 .photo{
     background: url(../img/Фон.png) no-repeat;
-    padding: 100px;
-    margin-top: 100px;
+    padding: 138px;
     background-size: cover;
     min-height: 820px;
     position: relative;
@@ -76,7 +75,38 @@
     }
     .photo-img-hand{
         position: absolute;
-        right: 100px;
-        bottom: 0;
+        right: 50px;
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .photo-img-hand{
+        display: none;
+    }
+    .photo{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        min-height: 200px;
+        .photo-content{
+            text-align: center;
+            .photo-card{
+                margin: 0;
+                max-width: 100%;
+                margin-top: 50px;
+                h2{
+                    max-width: 100%;
+                }
+                .photo-telegram{
+                    width: 100% !important;
+                }
+                .photo-whatsapp{
+                    width: 100% !important;
+                }
+            }
+        }
+        
     }
 }

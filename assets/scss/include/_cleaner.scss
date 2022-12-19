@@ -1,0 +1,89 @@
+.cleaner{
+    h2{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 150%;
+        text-align: center;
+        color: var(--color-gray-700);
+        margin-top: 106px;
+    }
+    p{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 150%;
+        text-align: center;
+        color: var(--color-gray-500);
+        margin-top: 10px;
+    }
+    .cleaner-items{
+        .cleaner-card-first{
+            .cleaner-card{
+                box-sizing: border-box;
+                max-width: 208px;
+                text-align: center;
+                h2{
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: var(--color-gray-700);
+                    margin-top: 16px;
+                }
+                p{
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 140%;
+                    text-align: center;
+                    margin-top: 6px;
+                }
+            }
+        }
+        .cleaner-card-two{
+            display: flex;
+            flex-direction: column;
+            max-width: ;
+            .card-two-btns{
+                display: flex;
+                flex-direction: column;
+                gap: 11px;
+                input{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 100%;
+                    color: var(--color-gray-500);
+                    padding: 28px 55px;
+                }
+                button{
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 150%;
+                    text-align: center;
+                    letter-spacing: 0.15em;
+                    text-transform: uppercase;
+                    color: var(--color-white-100);
+                    background: var(--color-yellow-400);
+                    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+                    border-radius: 100px;
+                    padding: 25px 19px;
+                    width: 275px;
+                }
+                .cleaner-check{
+                    display: flex;
+                    align-items: center;
+                    gap: 9px;
+                    margin-top: 20px;
+                    a{
+                        font-weight: 600;
+                        font-size: 11px;
+                        line-height: 140%;
+                        color: var(--color-gray-500);
+                        max-width: 245px;
+                        span{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

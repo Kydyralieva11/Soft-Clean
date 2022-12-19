@@ -97,3 +97,39 @@
         }
     }
 }
+
+@media screen and (max-width: 1000px){
+    .book-pdf{
+        display: none;
+    }
+    .book{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        .book-content{
+            h2{
+                text-align: center;
+                max-width: 100%;
+            }
+            .book-btns{
+                a{
+                    width: 100% !important;
+                }
+            }
+            .book-registretion{
+                input{
+                    width: 100% !important;
+                }
+                button{
+                    width: 100% !important;
+                }
+            }
+            .book-check{
+                a{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
