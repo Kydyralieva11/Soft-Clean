@@ -61,6 +61,13 @@
   }
 }
 
+@media screen and (max-width: 1400px){
+  .banner-content-block{
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .banner{
     display: flex;

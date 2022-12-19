@@ -42,13 +42,12 @@
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 20px;
            .work-card-first{
-            background: transparent, var(--color-white-100);
+            background: var(--color-white-100);
             box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
             border-radius: 30px;
             padding: 35px 30px;
             width: 100%;
             overflow: hidden;
-            transition: .6s all;
             cursor: pointer;
             h2{
                 font-weight: 800;
@@ -195,6 +194,37 @@
                     position: absolute;
                     right: -138px;
                     top: 3px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .work{
+        .work-content{
+            .work-title{
+                h2{
+                    font-size: 25px;
+                }
+                button{
+                    font-size: 17px;
+                    max-width: 535px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 700px){
+    .work{
+        .work-content{
+            .work-title{
+                h2{
+                    font-size: 22px;
+                }
+                button{
+                    font-size: 14px;
+                    max-width: 420px;
                 }
             }
         }
