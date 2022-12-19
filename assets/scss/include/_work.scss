@@ -49,6 +49,7 @@
             width: 100%;
             overflow: hidden;
             cursor: pointer;
+            transition: .6s all;
             h2{
                 font-weight: 800;
                 font-size: 18px;
@@ -101,6 +102,9 @@
                     top: 10px;
                 }
             }
+           }
+           .work-card-first:hover{
+            margin-top: -20px;
            }
         }
         .work-registration{
