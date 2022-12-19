@@ -1,6 +1,13 @@
 @import './fonts';
 @import './var';
 
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -48,3 +55,7 @@
 @import './include/examples';
 @import './include/photo';
 @import './include/cleaner';
+@import './include/discounts';
+@import './include/certificate';
+@import './include/faq';
+@import './include/footer';

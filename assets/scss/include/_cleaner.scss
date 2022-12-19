@@ -16,6 +16,8 @@
         margin-top: 10px;
     }
     .cleaner-items{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px ,1fr));
         .cleaner-card-first{
             .cleaner-card{
                 box-sizing: border-box;
@@ -41,7 +43,6 @@
         .cleaner-card-two{
             display: flex;
             flex-direction: column;
-            max-width: ;
             .card-two-btns{
                 display: flex;
                 flex-direction: column;

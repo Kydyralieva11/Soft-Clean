@@ -2,748 +2,931 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/all.min.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Soft Clean</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Soft Clean</title>
 </head>
 
 <body>
 
-  <div class="wrapper">
-    <div class="bg-banner">
-      <header class="header container">
-        <a href="#" class="header__logo">
-          <img src="./assets/img/logo.svg" alt="">
-          <div>
-            <h2 class="header-logo__title">Soft Clean</h2>
-            <p class="header-logo__dsc">Бережная уборка помещений СПБ</p>
-          </div>
-        </a>
-        <button class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <div class="nav-collapse">
-          <div class="header__phone">
-            <a href="tel">8-800-700-60-50</a>
-            <div class="phone">
-              <i class="fa-solid fa-circle header-phone__icon"></i>
-              <p class="header-phone__dsc"> Пн-Вс: 9:00 - 21:00</p>
-            </div>
-          </div>
-          <div class="social-network">
-            <h2 class="network__title">Быстрая связь с нами в мессенджерах:</h2>
-            <img src="./assets/img/telegram.svg" alt="">
-            <img src="./assets/img/whatsapp.svg" alt="">
-          </div>
-          <button class="header__btn">Заказать консультацию</button>
-        </div>
-      </header>
-
-      <div class="banner container">
-        <div class="banner-content-block">
-          <div class="banner-content">
-            <h2 class="banner-content__item">
-              Бережная уборка квартир и домов
-              в СПБ
-              <span class="banner-content__subtitle">
-                по фиксированной стоимости
-                от 80₽/м²
-              </span>
-              <span class="banner-line"></span>
-              <span class="banner-desc">с гарантий качества по договору</span>
-            </h2>
-          </div>
-          <p class="banner-item-desc">Выберите вид уборки, получите точный расчёт стоимости и <b>скидку 10%</b> на
-            первый заказ</p>
-          <div class="banner-btns">
-            <button>Рассчитать стоимость</button>
-            <button>Выбрать вид уборки</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="about-us container">
-      <div class="about-us-content">
-        <div class="about-us-card">
-          <h2>
-            Немецкое и Американское оборудование
-          </h2>
-          <img src="./assets/img/about-us1.png" alt="#">
-        </div>
-        <div class="about-us-card">
-          <h2>
-            Гипоаллергенные безопасные моющие
-          </h2>
-          <img class="about-us-logo" src="./assets/img/about-us-logo.png" alt="#">
-          <img class="about-img" src="./assets/img/about-us2.png" alt="#">
-        </div>
-        <div class="about-us-card">
-          <h2>
-            Соблюдаем санитарные нормы
-          </h2>
-          <img class="about-us-gloves" src="./assets/img/Перчатки 1.png" alt="#">
-        </div>
-        <div class="about-us-card">
-          <h2>
-            Оплата по результату после уборки
-          </h2>
-          <img class="about-us-check" src="./assets/img/Check 1 1.png" alt="#">
-        </div>
-      </div>
-
-      <div class="test">
-        <button class="tabs-btn">Услуги</button>
-        <button class="tabs-btn">Рассчитать стоимость</button>
-        <button class="tabs-btn">Почему мы</button>
-        <button class="tabs-btn">Как мы делаем уборку</button>
-        <button class="tabs-btn">Отзывы</button>
-        <button class="tabs-btn">Акции</button>
-      </div>
-    </section>
-
-    <section class="advertising container">
-      <h2>
-        Калькулятор стоимости уборки <span>с точностью до 98%</span>
-      </h2>
-      <p>
-        Это бесплатно и ни к чему не обязывает!
-      </p>
-      <div class="advertising-content">
-        <div class="advertising-items">
-          <h2>
-            Отлично! Ваши ответы получены, менеджер уже приступает к расчёту
-          </h2>
-          <p>
-            Где вам удобнее получить расчёт?
-          </p>
-          <div class="advertising-btns">
-            <a href="tel">
-              <img src="./assets/img/Vector.svg" alt="#">
-            </a>
-            <a href="tel">
-              <img src="./assets/img/Вотсап.svg" alt="#">
-            </a>
-          </div>
-          <div class="advertising-registy">
-            <input type="text" placeholder="Введите ваш телефон">
-            <button>Получить расчёт и бонусы</button>
-          </div>
-          <div class="advertising-check">
-            <input type="checkbox" id="check">
-            <a href="#">
-              Нажимая на кнопку вы соглашаетесь с условиями <span>Политики конфиденциальности</span>
-            </a>
-          </div>
-        </div>
-        <img class="advertising-img" src="./assets/img/ТелефонВруке2 1.png" alt="#">
-        <img class="advertising-bonus" src="./assets/img/Бонус.png" alt="#">
-      </div>
-    </section>
-
-    <section class="mistakes">
-      <div class="mistakes-content container">
-        <div class="mistakes-btn">
-          <button>А вы знали?</button>
-        </div>
-        <h2>
-          70% клининговых компаний в СПБ, зачастую <span>подвергают <br> своих клиентов рискам и дискомфорту.</span>
-        </h2>
-        <p>
-          И вот некоторые факты, с которыми вы можете столкнуться, <br> обращаясь в другие компании:
-        </p>
-
-        <div class="mistakes-cards">
-          <div class="mistakes-card-first">
-            <div class="mistakes-img">
-              <img class="card-cash" src="./assets/img/Касса.png" alt="#">
-              <img class="card-check" src="./assets/img/Чек.png" alt="#">
-              <img class="card-check2" src="./assets/img/Чек2.png" alt="#">
-            </div>
-            <h2>
-              Чёрная касса
-            </h2>
-            <p>
-              Клининговые компании завлекают клиентов обманчиво низкой стоимостью. Менеджеры умалчивают стоимость доп.
-              работ, а на объекте, когда клиенту сложно отказать, насчитывают стоимость выше заявленной.
-            </p>
-          </div>
-          <div class="mistakes-card-first">
-            <div class="mistakes-img">
-              <img class="card-skovorodka" src="./assets/img/skovoroda 1.png" alt="#">
-              <img class="card-zapret" src="./assets/img/Запрет 1.png" alt="#">
-              <img class="card-comet" src="./assets/img/Комет 1.png" alt="#">
-            </div>
-            <h2>
-              Порча имущества
-            </h2>
-            <p>
-              Неправильно подобранные клинерами моющие средства могут повредить поверхность мебели и бытовых приборов.
-              Неправильная влажная уборка может испортить новый паркет или повредить проводку.
-            </p>
-          </div>
-          <div class="mistakes-card-first">
-            <div class="mistakes-img">
-              <img class="card-venik" src="./assets/img/Веник 1.png" alt="#">
-              <img class="card-graz" src="./assets/img/graz.png" alt="#">
-              <img class="card-graz2" src="./assets/img/graz2.png" alt="#">
-            </div>
-            <h2>
-              Имитация деятельности
-            </h2>
-            <p>
-              Клинеры часто выполняют свою работу недобросовестно. Не убирают труднодоступные места и экономят моющее
-              средство. В результате Вы получаете некачественную уборку и испорченное настроение.
-            </p>
-          </div>
-          <div class="mistakes-card-two">
-            <div class="mistakes-img-two">
-              <img class="card-clock" src="./assets/img/Часы 1.png" alt="#">
-              <img class="card-attention" src="./assets/img/Внимание 1.png" alt="#">
-            </div>
-            <div class="mistakes-card-content">
-              <h2>
-                Безответственность персонала
-              </h2>
-              <p>
-                Клинеры приезжают раньше/позже назначенного времени, что доставляет дискомфорт хозяину. Не соблюдают
-                инструктаж владельца квартиры и нарушают бытовой порядок.
-              </p>
-            </div>
-          </div>
-          <div class="mistakes-contract">
-            <h2>
-              Друзья, Будьте внимательны!
-            </h2>
-            <p>
-              При выборе клинговой компании и заказе уборки, внимательно читайте договор на оказание услуг
-            </p>
-            <a href="#">
-              Посмотреть договор
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="work">
-      <div class="work-content container">
-        <div class="work-title">
-          <h2>
-            Наша работа построена <span>на профессионализме и честности</span>
-          </h2>
-          <button>
-            Обращаясь за помощью к нам, вы можете быть спокойны за качество и ваш комфорт
-          </button>
-        </div>
-
-        <div class="work-cards">
-          <div class="work-card-first">
-            <div class="work-img">
-              <img class="card-check2" src="./assets/img/Check 2 1.png" alt="#">
-              <img class="card-klipbord" src="./assets/img/Клипборд 1.png" alt="#">
-            </div>
-            <h2>
-              Честное сотрудничество
-            </h2>
-            <p>
-              Заранее рассчитаем стоимость услуг, и закрепляем наше сотрудничество договором. Оплата исключительно по
-              факту выполнения. Вы проверяете результат и платите тогда, когда он вас удовлетворяет.
-            </p>
-          </div>
-          <div class="work-card-first">
-            <div class="work-img">
-              <img class="card-bottle" src="./assets/img/Бутылка 1.png" alt="#">
-              <img class="card-bottle2" src="./assets/img/Бутылка2 1.png" alt="#">
-              <img class="card-logo2" src="./assets/img/logo-card.png" alt="#">
-            </div>
-            <h2>
-              Бережные моющие
-            </h2>
-            <p>
-              Внимательно подходим к выбору моющих средств. Знаем какие средства использовать в конкретных случаях,
-              чтобы не повредить мебель и сохранить прежний блеск поверхностей.
-            </p>
-          </div>
-          <div class="work-card-first">
-            <div class="work-img">
-              <img class="card-shield" src="./assets/img/Щит 1.png" alt="#">
-            </div>
-            <h2>
-              Гарантия качества
-            </h2>
-            <p>
-              На объектах работают от 2 и более опытных клинеров Комплексная уборка делается в соответствии с нормами
-              качества. Блеск от потолка до пола!
-            </p>
-          </div>
-        </div>
-
-        <div class="work-registration">
-          <div class="content-registration">
-            <h2>
-              <span>Оставьте заявку</span> на консультацию и расчёт стоимости БЕСПЛАТНО
-            </h2>
-            <div class="work-btns">
-              <input type="text" placeholder="Введите ваш телефон">
-              <button>Жду звонка</button>
-            </div>
-            <div class="work-check">
-              <input type="checkbox" id="check">
-              <a href="#">
-                Нажимая на кнопку вы соглашаетесь с условиями <span>Политики конфиденциальности</span>
-              </a>
-            </div>
-          </div>
-          <div class="img-regisstration">
-            <img class="card-girl2" src="./assets/img/Девушка3 2.png" alt="#">
-            <img class="card-bubles2" src="./assets/img/bubles 3.png" alt="#">
-            <img class="card-tree" src="./assets/img/КустЛевый 1.png" alt="#">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="clean container">
-      <h2>
-        <span>6 видов уборки</span> под любую Вашу задачу
-      </h2>
-      <p>
-        Наши услуги подойдут для семейных пар с детьми, <br> владельцев животных, аллергиков, арендодателей
-      </p>
-      <div class="clean-cards">
-        <div class="clean-card-first">
-          <img src="./assets/img/clean1.png" alt="#">
-          <div class="card-info-items">
-            <h2>
-              Гнеральная уборка
-            </h2>
-            <p>
-              Комплексная уборка с удалением пыли, жира и грязи
-            </p>
-          </div>
-          <div class="card-info">
-            <h2>
-              Время работы: <span>5-7 часов</span>
-            </h2>
-            <div class="card-btns">
-              <button class="card-btn">от 150 ₽/м²</button>
-              <button class="card-btn-two">Рассчитать стоимость</button>
-              <a href="#">
-                Подробнее
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="clean-card-first">
-          <img src="./assets/img/clean2.png" alt="#">
-          <div class="card-info-items">
-            <h2>
-              Уборка после ремонта
-            </h2>
-            <p>
-              Подготовим ваше помещение к комфортному проживанию
-            </p>
-          </div>
-          <div class="card-info">
-            <h2>
-              Время работы: <span>5-7 часов</span>
-            </h2>
-            <div class="card-btns">
-              <button class="card-btn">от 150 ₽/м²</button>
-              <button class="card-btn-two">Рассчитать стоимость</button>
-              <a href="#">
-                Подробнее
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="clean-card-first">
-          <img src="./assets/img/clean3.png" alt="#">
-          <div class="card-info-items">
-            <h2 class="clean-title">
-              Поддерживающая уборка
-            </h2>
-            <p>
-              Уборка, для поддержания чистоты в квартире
-            </p>
-          </div>
-          <div class="card-info">
-            <h2>
-              Время работы: <span>2-4 часа</span>
-            </h2>
-            <div class="card-btns">
-              <button class="card-btn">от 80 ₽/м²</button>
-              <button class="card-btn-two">Рассчитать стоимость</button>
-              <a href="#">
-                Подробнее
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="clean-card-first">
-          <img src="./assets/img/clean4.png" alt="#">
-          <div class="card-info-items">
-            <h2>
-              Мойка окон и понорам
-            </h2>
-            <p>
-              За чистыми окнами — грязь не живёт!
-            </p>
-          </div>
-          <div class="card-info">
-            <h2>
-              Время работы: <span>2-4 часа</span>
-            </h2>
-            <div class="card-btns">
-              <button class="card-btn">от 500 ₽</button>
-              <button class="card-btn-two">Рассчитать стоимость</button>
-              <a href="#">
-                Подробнее
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="clean-card-first">
-          <img src="./assets/img/clean5.png" alt="#">
-          <div class="card-info-items">
-            <h2>
-              Защитное покрытие
-            </h2>
-            <p>
-              Глубокая очистка и нанесение защитного слоя полироли
-            </p>
-          </div>
-          <div class="card-info">
-            <h2>
-              Время работы: <span>8-12 часов</span>
-            </h2>
-            <div class="card-btns">
-              <button class="card-btn">от 100 ₽/м²</button>
-              <button class="card-btn-two">Рассчитать стоимость</button>
-              <a href="#">
-                Подробнее
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="clean-card-first">
-          <img src="./assets/img/clean6.png" alt="#">
-          <div class="card-info-items">
-            <h2>
-              Экспресс уборка
-            </h2>
-            <p>
-              Срочная уборка с выездом в течении часа
-            </p>
-          </div>
-          <div class="card-info">
-            <h2>
-              Время работы: <span>до 3 часов</span>
-            </h2>
-            <div class="card-btns">
-              <button class="card-btn">от 130 ₽/м²</button>
-              <button class="card-btn-two">Рассчитать стоимость</button>
-              <a href="#">
-                Подробнее
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="price container">
-      <div class="price-content">
-        <button>Не нашли нужный вариант?</button>
-        <h2>
-          Посмотрите дополнительные услуги
-        </h2>
-        <p>
-          Устраним любой каприз в уборке
-        </p>
-      </div>
-      <div class="price-cards">
-        <div class="price-card-first">
-          <img src="./assets/img/price1.png" alt="#">
-          <div class="price-card-info">
-            <h2>Мойка холодильника</h2>
-            <div class="price-arrow">
-              <span class="price-line"></span>
-              <p>600 ₽</p>
-            </div>
-          </div>
-        </div>
-        <div class="price-card-first">
-          <img src="./assets/img/price2.png" alt="#">
-          <div class="price-card-info">
-            <h2>Мойка микроволновки</h2>
-            <div class="price-arrow">
-              <span class="price-line"></span>
-              <p>400 ₽</p>
-            </div>
-          </div>
-        </div>
-        <div class="price-card-first">
-          <img src="./assets/img/price3.png" alt="#">
-          <div class="price-card-info">
-            <h2>Мойка варочной плиты</h2>
-            <div class="price-arrow">
-              <span class="price-line"></span>
-              <p>400 ₽</p>
-            </div>
-          </div>
-        </div>
-        <div class="price-card-first">
-          <img src="./assets/img/price4.png" alt="#">
-          <div class="price-card-info">
-            <h2>Мойка духовки</h2>
-            <div class="price-arrow">
-              <span class="price-line"></span>
-              <p>500 ₽</p>
-            </div>
-          </div>
-        </div>
-        <div class="price-card-first">
-          <img src="./assets/img/price5.png" alt="#">
-          <div class="price-card-info">
-            <h2>Мойка вытяжки</h2>
-            <div class="price-arrow">
-              <span class="price-line"></span>
-              <p>500 ₽</p>
-            </div>
-          </div>
-        </div>
-        <div class="price-card-first">
-          <img src="./assets/img/price6.png" alt="#">
-          <div class="price-card-info">
-            <h2>Убраться на балконе</h2>
-            <div class="price-arrow">
-              <span class="price-line"></span>
-              <p>от 1000 ₽</p>
-            </div>
-          </div>
-        </div>
-        <div class="price-card-first">
-          <img src="./assets/img/price6.png" alt="#">
-          <div class="price-card-info">
-            <h2>Мойка потолков</h2>
-            <div class="price-arrow">
-              <span class="price-line"></span>
-              <p>от 35 ₽/м²</p>
-            </div>
-          </div>
-        </div>
-        <div class="price-card-first">
-          <img src="./assets/img/price7.png" alt="#">
-          <div class="price-card-info">
-            <h2>Мойка стен</h2>
-            <div class="price-arrow">
-              <span class="price-line"></span>
-              <p>50 ₽/м²</p>
-            </div>
-          </div>
-        </div>
-        <div class="price-card-first">
-          <img src="./assets/img/price8.png" alt="#">
-          <div class="price-card-info">
-            <h2>Поменяем постельное</h2>
-            <div class="price-arrow">
-              <span class="price-line"></span>
-              <p>200 ₽</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="price-present">
-        <div class="price-present-info">
-          <h2>
-            Закажите 3 дополнительные услуги <span>и получите четвёртую в подарок</span>
-          </h2>
-          <button>Заказать уборку</button>
-        </div>
-        <div class="price-present-img">
-          <img class="card-one" src="./assets/img/one.png" alt="#">
-          <img class="card-three" src="./assets/img/three.png" alt="#">
-          <img class="card-plus" src="./assets/img/Плюс.png" alt="#">
-          <img class="card-list" src="./assets/img/Листики 1.png" alt="#">
-        </div>
-      </div>
-    </section>
-
-    <section class="book container">
-      <img class="book-pdf" src="./assets/img/PDF Иконка.png" alt="#">
-      <div class="book-content">
-        <h2>
-          Хотите приценится? Получите актуальный прайс-лист <span> услуг всего в 1 клик</span>
-        </h2>
-        <p>— Где вам удобнее получить?</p>
-        <div class="book-btns">
-          <a href="#">
-            <img src="./assets/img/telegram.svg" alt="#">
-          </a>
-          <a href="#">
-            <img src="./assets/img/whatsapp.svg" alt="#">
-          </a>
-        </div>
-        <div class="book-registretion">
-          <input type="text" placeholder="Введите ваш телефон">
-          <button>Получить прайс</button>
-        </div>
-        <div class="book-check">
-          <input type="checkbox" id="check">
-          <a href="#">
-            Нажимая на кнопку вы соглашаетесь с условиями <span>Политики конфиденциальности</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="examples">
-        <div class="examples-content container">
-            <h2>
-            Посмотрите наглядно как мы делаем уборку
-            </h2>
-            <p>
-            Так выглядит уборка в глазах наших клинеров
-            </p>
-        </div>
-        <div class="tab-container container">
-          <div class="test">
-            <button class="tab active">Cпальная комната</button>
-            <button class="tab non-active">Кухня</button>
-            <button class="tab non-active">Ванная</button>
-            <button class="tab non-active">Прихожая</button>
-          </div>
-          <div class="tab-content">
-            <div class="slides-block">
-              <img src="./assets/img/slides/1slide.png" alt="">
-            </div>
-          </div>
-          <div class="tab-content hidden">
-            <div class="slides-block">
-              <img src="./assets/img/slides/2slide.png" alt="">
-            </div>
-          </div>
-          <div class="tab-content hidden">
-            <div class="slides-block">
-              <img src="./assets/img/slides/3slide.png" alt="">
-            </div>
-          </div>
-          <div class="tab-content hidden">
-            <div class="slides-block">
-              <img src="./assets/img/slides/4slide.png" alt="">
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section class="photo">
-        <div class="photo-content container">
-            <h2>
-                Моментальный Рассчёт стоимости по фотографии
-            </h2>
-            <p>
-                Пришлите фото в мессенджере, чтобы рассчитать стоимость,  быстро заказать уборку или задать нам вопрос
-            </p>
-            <div class="photo-card">
-                <h2>
-                    Кликните на удобный способ связи и напишите нам:
-                </h2>
-                <div class="photo-card-img">
-                    <a href="#" class="photo-telegram">
-                        <img src="./assets/img/telegram2svg.svg" alt="#">
-                    </a>
-                    <a href="#" class="photo-whatsapp">
-                        <img src="./assets/img/whatsapp2.svg" alt="#">
-                    </a>
+    <div class="wrapper">
+        <div class="bg-banner">
+            <header class="header container">
+                <a href="#" class="header__logo">
+                    <img src="./assets/img/header/logo.svg" alt="">
+                    <div>
+                        <h2 class="header-logo__title">Soft Clean</h2>
+                        <p class="header-logo__dsc">Бережная уборка помещений СПБ</p>
+                    </div>
+                </a>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-collapse">
+                    <div class="header__phone">
+                        <a href="tel">8-800-700-60-50</a>
+                        <div class="phone">
+                            <i class="fa-solid fa-circle header-phone__icon"></i>
+                            <p class="header-phone__dsc"> Пн-Вс: 9:00 - 21:00</p>
+                        </div>
+                    </div>
+                    <div class="social-network">
+                        <h2 class="network__title">Быстрая связь с нами в мессенджерах:</h2>
+                        <img src="./assets/img/header/telegram.svg" alt="">
+                        <img src="./assets/img/header/whatsapp.svg" alt="">
+                    </div>
+                    <button class="header__btn">Заказать консультацию</button>
                 </div>
-                <div class="photo-laeyer">
-                    <img src="./assets/img/Layer 1.svg" alt="#">
-                    <p>
-                        Скорость ответа 60 секунд
-                    </p>
+            </header>
+
+            <div class="banner container">
+                <div class="banner-content-block">
+                    <div class="banner-content">
+                        <h2 class="banner-content__item">
+                            Бережная уборка квартир и домов
+                            в СПБ
+                            <span class="banner-content__subtitle">
+                                по фиксированной стоимости
+                                от 80₽/м²
+                            </span>
+                            <span class="banner-line"></span>
+                            <span class="banner-desc">с гарантий качества по договору</span>
+                        </h2>
+                    </div>
+                    <p class="banner-item-desc">Выберите вид уборки, получите точный расчёт стоимости и <b>скидку
+                            10%</b> на
+                        первый заказ</p>
+                    <div class="banner-btns">
+                        <button>Рассчитать стоимость</button>
+                        <a href="#test">Выбрать вид уборки</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <img class="photo-img-hand" src="./assets/img/РукаФото 1.png" alt="#">
-    </section>
 
-    <section class="cleaner container">
-        <h2>
-            Что входит в инвентарь нашего клинера
-        </h2>
-        <p>
-            Инструменты, с помощью которых <br> создаём уют в вашем доме
-        </p>
-        <div class="cleaner-items">
-            <div class="cleaner-card-first">
-                <div class="cleaner-card">
-                    <img src="./assets/img/cleaner1.png" alt="#">
+        <section class="about-us container">
+            <div class="about-us-content">
+                <div class="about-us-card">
                     <h2>
-                        5 видов моющих средств
+                        Немецкое и Американское оборудование
+                    </h2>
+                    <img src="./assets/img/about-us/about-us1.png" alt="#">
+                </div>
+                <div class="about-us-card">
+                    <h2>
+                        Гипоаллергенные безопасные моющие
+                    </h2>
+                    <img class="about-us-logo" src="./assets/img/about-us/about-us-logo.png" alt="#">
+                    <img class="about-img" src="./assets/img/about-us/about-us2.png" alt="#">
+                </div>
+                <div class="about-us-card">
+                    <h2>
+                        Соблюдаем санитарные нормы
+                    </h2>
+                    <img class="about-us-gloves" src="./assets/img/about-us/Перчатки 1.png" alt="#">
+                </div>
+                <div class="about-us-card">
+                    <h2>
+                        Оплата по результату после уборки
+                    </h2>
+                    <img class="about-us-check" src="./assets/img/about-us/Check 1 1.png" alt="#">
+                </div>
+            </div>
+
+            <div class="test">
+                <button class="tabs-btn">Услуги</button>
+                <button class="tabs-btn">Рассчитать стоимость</button>
+                <button class="tabs-btn">Почему мы</button>
+                <button class="tabs-btn">Как мы делаем уборку</button>
+                <button class="tabs-btn">Отзывы</button>
+                <button class="tabs-btn">Акции</button>
+            </div>
+        </section>
+
+        <section class="advertising container">
+            <h2>
+                Калькулятор стоимости уборки <span>с точностью до 98%</span>
+            </h2>
+            <p>
+                Это бесплатно и ни к чему не обязывает!
+            </p>
+            <div class="advertising-content">
+                <div class="advertising-items">
+                    <h2>
+                        Отлично! Ваши ответы получены, менеджер уже приступает к расчёту
                     </h2>
                     <p>
-                        подходят для всех типов поверхностей, от паркета до кафеля
+                        Где вам удобнее получить расчёт?
                     </p>
-                </div>
-                <div class="cleaner-card">
-                    <img src="./assets/img/cleaner1.png" alt="#">
-                    <h2>
-                        5 видов моющих средств
-                    </h2>
-                    <p>
-                        подходят для всех типов поверхностей, от паркета до кафеля
-                    </p>
-                </div>
-            </div>
-            <div class="cleaner-card-two">
-                <img src="./assets/img/ДевушкаЭлипсы.png" alt="#">
-                <div class="card-two-btns">
-                    <input type="text" placeholder="Введите ваш телефон">
-                    <button>ЗАКЗАТЬ УБОРКУ</button>
-                    <div class="cleaner-check">
+                    <div class="advertising-btns">
+                        <a href="tel">
+                            <img src="./assets/img/advertising/Vector.svg" alt="#">
+                        </a>
+                        <a href="tel">
+                            <img src="./assets/img/advertising/Вотсап.svg" alt="#">
+                        </a>
+                    </div>
+                    <div class="advertising-registy">
+                        <input type="text" placeholder="Введите ваш телефон">
+                        <button>Получить расчёт и бонусы</button>
+                    </div>
+                    <div class="advertising-check">
                         <input type="checkbox" id="check">
                         <a href="#">
                             Нажимая на кнопку вы соглашаетесь с условиями <span>Политики конфиденциальности</span>
                         </a>
                     </div>
                 </div>
+                <img class="advertising-img" src="./assets/img/advertising/ТелефонВруке2 1.png" alt="#">
+                <img class="advertising-bonus" src="./assets/img/advertising/Бонус.png" alt="#">
             </div>
-            <div class="cleaner-card-first">
-                <div class="cleaner-card">
-                    <img src="./assets/img/cleaner1.png" alt="#">
-                    <h2>
-                        5 видов моющих средств
-                    </h2>
-                    <p>
-                        подходят для всех типов поверхностей, от паркета до кафеля
-                    </p>
+        </section>
+
+        <section class="mistakes">
+            <div class="mistakes-content container">
+                <div class="mistakes-btn">
+                    <button>А вы знали?</button>
                 </div>
-                <div class="cleaner-card">
-                    <img src="./assets/img/cleaner1.png" alt="#">
-                    <h2>
-                        5 видов моющих средств
-                    </h2>
-                    <p>
-                        подходят для всех типов поверхностей, от паркета до кафеля
-                    </p>
+                <h2>
+                    70% клининговых компаний в СПБ, зачастую <span>подвергают <br> своих клиентов рискам и
+                        дискомфорту.</span>
+                </h2>
+                <p>
+                    И вот некоторые факты, с которыми вы можете столкнуться, <br> обращаясь в другие компании:
+                </p>
+
+                <div class="mistakes-cards">
+                    <div class="mistakes-card-first">
+                        <div class="mistakes-img">
+                            <img class="card-cash" src="./assets/img/mistakes/Касса.png" alt="#">
+                            <img class="card-check" src="./assets/img/mistakes/Чек.png" alt="#">
+                            <img class="card-check2" src="./assets/img/mistakes/Чек2.png" alt="#">
+                        </div>
+                        <h2>
+                            Чёрная касса
+                        </h2>
+                        <p>
+                            Клининговые компании завлекают клиентов обманчиво низкой стоимостью. Менеджеры умалчивают
+                            стоимость доп.
+                            работ, а на объекте, когда клиенту сложно отказать, насчитывают стоимость выше заявленной.
+                        </p>
+                    </div>
+                    <div class="mistakes-card-first">
+                        <div class="mistakes-img">
+                            <img class="card-skovorodka" src="./assets/img/mistakes/skovoroda 1.png" alt="#">
+                            <img class="card-zapret" src="./assets/img/mistakes/Запрет 1.png" alt="#">
+                            <img class="card-comet" src="./assets/img/mistakes/Комет 1.png" alt="#">
+                        </div>
+                        <h2>
+                            Порча имущества
+                        </h2>
+                        <p>
+                            Неправильно подобранные клинерами моющие средства могут повредить поверхность мебели и
+                            бытовых приборов.
+                            Неправильная влажная уборка может испортить новый паркет или повредить проводку.
+                        </p>
+                    </div>
+                    <div class="mistakes-card-first">
+                        <div class="mistakes-img">
+                            <img class="card-venik" src="./assets/img/mistakes/Веник 1.png" alt="#">
+                            <img class="card-graz" src="./assets/img/mistakes/graz.png" alt="#">
+                            <img class="card-graz2" src="./assets/img/mistakes/graz2.png" alt="#">
+                        </div>
+                        <h2>
+                            Имитация деятельности
+                        </h2>
+                        <p>
+                            Клинеры часто выполняют свою работу недобросовестно. Не убирают труднодоступные места и
+                            экономят моющее
+                            средство. В результате Вы получаете некачественную уборку и испорченное настроение.
+                        </p>
+                    </div>
+                    <div class="mistakes-card-two">
+                        <div class="mistakes-img-two">
+                            <img class="card-clock" src="./assets/img/mistakes/Часы 1.png" alt="#">
+                            <img class="card-attention" src="./assets/img/mistakes/Внимание 1.png" alt="#">
+                        </div>
+                        <div class="mistakes-card-content">
+                            <h2>
+                                Безответственность персонала
+                            </h2>
+                            <p>
+                                Клинеры приезжают раньше/позже назначенного времени, что доставляет дискомфорт хозяину.
+                                Не соблюдают
+                                инструктаж владельца квартиры и нарушают бытовой порядок.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mistakes-contract">
+                        <h2>
+                            Друзья, Будьте внимательны!
+                        </h2>
+                        <p>
+                            При выборе клинговой компании и заказе уборки, внимательно читайте договор на оказание услуг
+                        </p>
+                        <a href="#">
+                            Посмотреть договор
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-  </div>
+        <section class="work">
+            <div class="work-content container">
+                <div class="work-title">
+                    <h2>
+                        Наша работа построена <span>на профессионализме и честности</span>
+                    </h2>
+                    <button>
+                        Обращаясь за помощью к нам, вы можете быть спокойны за качество и ваш комфорт
+                    </button>
+                </div>
+
+                <div class="work-cards">
+                    <div class="work-card-first">
+                        <div class="work-img">
+                            <img class="card-check2" src="./assets/img/work/Check 2 1.png" alt="#">
+                            <img class="card-klipbord" src="./assets/img/work/Клипборд 1.png" alt="#">
+                        </div>
+                        <h2>
+                            Честное сотрудничество
+                        </h2>
+                        <p>
+                            Заранее рассчитаем стоимость услуг, и закрепляем наше сотрудничество договором. Оплата
+                            исключительно по
+                            факту выполнения. Вы проверяете результат и платите тогда, когда он вас удовлетворяет.
+                        </p>
+                    </div>
+                    <div class="work-card-first">
+                        <div class="work-img">
+                            <img class="card-bottle" src="./assets/img/work/Бутылка 1.png" alt="#">
+                            <img class="card-bottle2" src="./assets/img/work/Бутылка2 1.png" alt="#">
+                            <img class="card-logo2" src="./assets/img/work/logo-card.png" alt="#">
+                        </div>
+                        <h2>
+                            Бережные моющие
+                        </h2>
+                        <p>
+                            Внимательно подходим к выбору моющих средств. Знаем какие средства использовать в конкретных
+                            случаях,
+                            чтобы не повредить мебель и сохранить прежний блеск поверхностей.
+                        </p>
+                    </div>
+                    <div class="work-card-first">
+                        <div class="work-img">
+                            <img class="card-shield" src="./assets/img/work/Щит 1.png" alt="#">
+                        </div>
+                        <h2>
+                            Гарантия качества
+                        </h2>
+                        <p>
+                            На объектах работают от 2 и более опытных клинеров Комплексная уборка делается в
+                            соответствии с нормами
+                            качества. Блеск от потолка до пола!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="work-registration">
+                    <div class="content-registration">
+                        <h2>
+                            <span>Оставьте заявку</span> на консультацию и расчёт стоимости БЕСПЛАТНО
+                        </h2>
+                        <div class="work-btns">
+                            <input type="text" placeholder="Введите ваш телефон">
+                            <button>Жду звонка</button>
+                        </div>
+                        <div class="work-check">
+                            <input type="checkbox" id="check">
+                            <a href="#">
+                                Нажимая на кнопку вы соглашаетесь с условиями <span>Политики конфиденциальности</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-regisstration">
+                        <img class="card-girl2" src="./assets/img/work/Девушка3 2.png" alt="#">
+                        <img class="card-bubles2" src="./assets/img/work/bubles 3.png" alt="#">
+                        <img class="card-tree" src="./assets/img/work/КустЛевый 1.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="clean container" id="test">
+            <h2>
+                <span>6 видов уборки</span> под любую Вашу задачу
+            </h2>
+            <p>
+                Наши услуги подойдут для семейных пар с детьми, <br> владельцев животных, аллергиков, арендодателей
+            </p>
+            <div class="clean-cards">
+                <div class="clean-card-first">
+                    <img src="./assets/img/clean/clean1.png" alt="#">
+                    <div class="card-info-items">
+                        <h2>
+                            Гнеральная уборка
+                        </h2>
+                        <p>
+                            Комплексная уборка с удалением пыли, жира и грязи
+                        </p>
+                    </div>
+                    <div class="card-info">
+                        <h2>
+                            Время работы: <span>5-7 часов</span>
+                        </h2>
+                        <div class="card-btns">
+                            <button class="card-btn">от 150 ₽/м²</button>
+                            <button class="card-btn-two">Рассчитать стоимость</button>
+                            <a href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-card-first">
+                    <img src="./assets/img/clean/clean2.png" alt="#">
+                    <div class="card-info-items">
+                        <h2>
+                            Уборка после ремонта
+                        </h2>
+                        <p>
+                            Подготовим ваше помещение к комфортному проживанию
+                        </p>
+                    </div>
+                    <div class="card-info">
+                        <h2>
+                            Время работы: <span>5-7 часов</span>
+                        </h2>
+                        <div class="card-btns">
+                            <button class="card-btn">от 150 ₽/м²</button>
+                            <button class="card-btn-two">Рассчитать стоимость</button>
+                            <a href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-card-first">
+                    <img src="./assets/img/clean/clean3.png" alt="#">
+                    <div class="card-info-items">
+                        <h2 class="clean-title">
+                            Поддерживающая уборка
+                        </h2>
+                        <p>
+                            Уборка, для поддержания чистоты в квартире
+                        </p>
+                    </div>
+                    <div class="card-info">
+                        <h2>
+                            Время работы: <span>2-4 часа</span>
+                        </h2>
+                        <div class="card-btns">
+                            <button class="card-btn">от 80 ₽/м²</button>
+                            <button class="card-btn-two">Рассчитать стоимость</button>
+                            <a href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-card-first">
+                    <img src="./assets/img/clean/clean4.png" alt="#">
+                    <div class="card-info-items">
+                        <h2>
+                            Мойка окон и понорам
+                        </h2>
+                        <p>
+                            За чистыми окнами — грязь не живёт!
+                        </p>
+                    </div>
+                    <div class="card-info">
+                        <h2>
+                            Время работы: <span>2-4 часа</span>
+                        </h2>
+                        <div class="card-btns">
+                            <button class="card-btn">от 500 ₽</button>
+                            <button class="card-btn-two">Рассчитать стоимость</button>
+                            <a href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-card-first">
+                    <img src="./assets/img/clean/clean5.png" alt="#">
+                    <div class="card-info-items">
+                        <h2>
+                            Защитное покрытие
+                        </h2>
+                        <p>
+                            Глубокая очистка и нанесение защитного слоя полироли
+                        </p>
+                    </div>
+                    <div class="card-info">
+                        <h2>
+                            Время работы: <span>8-12 часов</span>
+                        </h2>
+                        <div class="card-btns">
+                            <button class="card-btn">от 100 ₽/м²</button>
+                            <button class="card-btn-two">Рассчитать стоимость</button>
+                            <a href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clean-card-first">
+                    <img src="./assets/img/clean/clean6.png" alt="#">
+                    <div class="card-info-items">
+                        <h2>
+                            Экспресс уборка
+                        </h2>
+                        <p>
+                            Срочная уборка с выездом в течении часа
+                        </p>
+                    </div>
+                    <div class="card-info">
+                        <h2>
+                            Время работы: <span>до 3 часов</span>
+                        </h2>
+                        <div class="card-btns">
+                            <button class="card-btn">от 130 ₽/м²</button>
+                            <button class="card-btn-two">Рассчитать стоимость</button>
+                            <a href="#">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="price container">
+            <div class="price-content">
+                <button>Не нашли нужный вариант?</button>
+                <h2>
+                    Посмотрите дополнительные услуги
+                </h2>
+                <p>
+                    Устраним любой каприз в уборке
+                </p>
+            </div>
+            <div class="price-cards">
+                <div class="price-card-first">
+                    <img src="./assets/img/price/price1.png" alt="#">
+                    <div class="price-card-info">
+                        <h2>Мойка холодильника</h2>
+                        <div class="price-arrow">
+                            <span class="price-line"></span>
+                            <p>600 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card-first">
+                    <img src="./assets/img/price/price2.png" alt="#">
+                    <div class="price-card-info">
+                        <h2>Мойка микроволновки</h2>
+                        <div class="price-arrow">
+                            <span class="price-line"></span>
+                            <p>400 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card-first">
+                    <img src="./assets/img/price/price3.png" alt="#">
+                    <div class="price-card-info">
+                        <h2>Мойка варочной плиты</h2>
+                        <div class="price-arrow">
+                            <span class="price-line"></span>
+                            <p>400 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card-first">
+                    <img src="./assets/img/price/price4.png" alt="#">
+                    <div class="price-card-info">
+                        <h2>Мойка духовки</h2>
+                        <div class="price-arrow">
+                            <span class="price-line"></span>
+                            <p>500 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card-first">
+                    <img src="./assets/img/price/price5.png" alt="#">
+                    <div class="price-card-info">
+                        <h2>Мойка вытяжки</h2>
+                        <div class="price-arrow">
+                            <span class="price-line"></span>
+                            <p>500 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card-first">
+                    <img src="./assets/img/price/price6.png" alt="#">
+                    <div class="price-card-info">
+                        <h2>Убраться на балконе</h2>
+                        <div class="price-arrow">
+                            <span class="price-line"></span>
+                            <p>от 1000 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card-first">
+                    <img src="./assets/img/price/price6.png" alt="#">
+                    <div class="price-card-info">
+                        <h2>Мойка потолков</h2>
+                        <div class="price-arrow">
+                            <span class="price-line"></span>
+                            <p>от 35 ₽/м²</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card-first">
+                    <img src="./assets/img/price/price7.png" alt="#">
+                    <div class="price-card-info">
+                        <h2>Мойка стен</h2>
+                        <div class="price-arrow">
+                            <span class="price-line"></span>
+                            <p>50 ₽/м²</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card-first">
+                    <img src="./assets/img/price/price8.png" alt="#">
+                    <div class="price-card-info">
+                        <h2>Поменяем постельное</h2>
+                        <div class="price-arrow">
+                            <span class="price-line"></span>
+                            <p>200 ₽</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="price-present">
+                <div class="price-present-info">
+                    <h2>
+                        Закажите 3 дополнительные услуги <span>и получите четвёртую в подарок</span>
+                    </h2>
+                    <button>Заказать уборку</button>
+                </div>
+                <div class="price-present-img">
+                    <img class="card-one" src="./assets/img/price/one.png" alt="#">
+                    <img class="card-three" src="./assets/img/price/three.png" alt="#">
+                    <img class="card-plus" src="./assets/img/price/Плюс.png" alt="#">
+                    <img class="card-list" src="./assets/img/price/Листики 1.png" alt="#">
+                </div>
+            </div>
+        </section>
+
+        <section class="book container">
+            <img class="book-pdf" src="./assets/img/book/PDF Иконка.png" alt="#">
+            <div class="book-content">
+                <h2>
+                    Хотите приценится? Получите актуальный прайс-лист <span> услуг всего в 1 клик</span>
+                </h2>
+                <p>— Где вам удобнее получить?</p>
+                <div class="book-btns">
+                    <a href="#">
+                        <img src="./assets/img/header/telegram.svg" alt="#">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/header/whatsapp.svg" alt="#">
+                    </a>
+                </div>
+                <div class="book-registretion">
+                    <input type="text" placeholder="Введите ваш телефон">
+                    <button>Получить прайс</button>
+                </div>
+                <div class="book-check">
+                    <input type="checkbox" id="check">
+                    <a href="#">
+                        Нажимая на кнопку вы соглашаетесь с условиями <span>Политики конфиденциальности</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="examples">
+            <div class="examples-content container">
+                <h2>
+                    Посмотрите наглядно как мы делаем уборку
+                </h2>
+                <p>
+                    Так выглядит уборка в глазах наших клинеров
+                </p>
+            </div>
+            <div class="tab-container container">
+                <div class="test">
+                    <button class="tab active">Cпальная комната</button>
+                    <button class="tab non-active">Кухня</button>
+                    <button class="tab non-active">Ванная</button>
+                    <button class="tab non-active">Прихожая</button>
+                </div>
+                <div class="tab-content">
+                    <div class="slides-block">
+                        <img src="./assets/img/slides/1slide.png" alt="">
+                    </div>
+                </div>
+                <div class="tab-content hidden">
+                    <div class="slides-block">
+                        <img src="./assets/img/slides/2slide.png" alt="">
+                    </div>
+                </div>
+                <div class="tab-content hidden">
+                    <div class="slides-block">
+                        <img src="./assets/img/slides/3slide.png" alt="">
+                    </div>
+                </div>
+                <div class="tab-content hidden">
+                    <div class="slides-block">
+                        <img src="./assets/img/slides/4slide.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="photo">
+            <div class="photo-content container">
+                <h2>
+                    Моментальный Рассчёт стоимости по фотографии
+                </h2>
+                <p>
+                    Пришлите фото в мессенджере, чтобы рассчитать стоимость, быстро заказать уборку или задать нам
+                    вопрос
+                </p>
+                <div class="photo-card">
+                    <h2>
+                        Кликните на удобный способ связи и напишите нам:
+                    </h2>
+                    <div class="photo-card-img">
+                        <a href="#" class="photo-telegram">
+                            <img src="./assets/img/photo/telegram2svg.svg" alt="#">
+                        </a>
+                        <a href="#" class="photo-whatsapp">
+                            <img src="./assets/img/photo/whatsapp2.svg" alt="#">
+                        </a>
+                    </div>
+                    <div class="photo-laeyer">
+                        <img src="./assets/img/photo/Layer 1.svg" alt="#">
+                        <p>
+                            Скорость ответа 60 секунд
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img class="photo-img-hand" src="./assets/img/photo/РукаФото 1.png" alt="#">
+        </section>
+
+        <section class="cleaner container">
+            <h2>
+                Что входит в инвентарь нашего клинера
+            </h2>
+            <p>
+                Инструменты, с помощью которых <br> создаём уют в вашем доме
+            </p>
+            <div class="cleaner-items">
+                <div class="cleaner-card-first">
+                    <div class="cleaner-card">
+                        <img src="./assets/img/cleaner1.png" alt="#">
+                        <h2>
+                            5 видов моющих средств
+                        </h2>
+                        <p>
+                            подходят для всех типов поверхностей, от паркета до кафеля
+                        </p>
+                    </div>
+                    <div class="cleaner-card">
+                        <img src="./assets/img/cleaner1.png" alt="#">
+                        <h2>
+                            5 видов моющих средств
+                        </h2>
+                        <p>
+                            подходят для всех типов поверхностей, от паркета до кафеля
+                        </p>
+                    </div>
+                </div>
+                <div class="cleaner-card-two">
+                    <img src="./assets/img/ДевушкаЭлипсы.png" alt="#">
+                    <div class="card-two-btns">
+                        <input type="text" placeholder="Введите ваш телефон">
+                        <button>ЗАКЗАТЬ УБОРКУ</button>
+                        <div class="cleaner-check">
+                            <input type="checkbox" id="check">
+                            <a href="#">
+                                Нажимая на кнопку вы соглашаетесь с условиями <span>Политики конфиденциальности</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cleaner-card-first">
+                    <div class="cleaner-card">
+                        <img src="./assets/img/cleaner1.png" alt="#">
+                        <h2>
+                            5 видов моющих средств
+                        </h2>
+                        <p>
+                            подходят для всех типов поверхностей, от паркета до кафеля
+                        </p>
+                    </div>
+                    <div class="cleaner-card">
+                        <img src="./assets/img/cleaner1.png" alt="#">
+                        <h2>
+                            5 видов моющих средств
+                        </h2>
+                        <p>
+                            подходят для всех типов поверхностей, от паркета до кафеля
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="discounts">
+            <div class="discounts-content container">
+                <h2>
+                    Выберите подарок и закажите бережную уборку, <span>без наценок и скрытых платежей</span>
+                </h2>
+                <div class="discounts-cards">
+                    <div class="discounts-card-first">
+                        <img src="./assets/img/discounts/Иконка1.png" alt="#">
+                        <div class="discounts-items">
+                            <h2>
+                                Скидка 10% при первом заказе
+                            </h2>
+                            <p>Действует на все пакеты услуг</p>
+                            <button>Получить подарок</button>
+                        </div>
+                    </div>
+                    <div class="discounts-card-first">
+                        <img src="./assets/img/discounts/Иконка2.png" alt="#">
+                        <div class="discounts-items">
+                            <h2>
+                                Бесплатная мойка плиты
+                            </h2>
+                            <p>При заказе в дневное время суток</p>
+                            <button>Получить подарок</button>
+                        </div>
+                    </div>
+                    <div class="discounts-card-first">
+                        <img src="./assets/img/discounts/Иконка3.png" alt="#">
+                        <div class="discounts-items">
+                            <h2>
+                                Мойка 2 окон бесплатно
+                            </h2>
+                            <p>При заказе уборки после ремонта</p>
+                            <button>Получить подарок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="discounts-img" src="./assets/img/discounts/КОробка 2.png" alt="#">
+        </section>
+
+        <section class="certificate container">
+            <h2>
+                Сертификаты
+            </h2>
+            <p>
+                Моющий средства от проверенных производителей
+            </p>
+            <div class="certificate-slide">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="serf">
+                                <img src="./assets/img/certificate/slide1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="serf">
+                                <img src="./assets/img/certificate/slide2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="serf">
+                                <img src="./assets/img/certificate/slide4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="serf">
+                                <img src="./assets/img/certificate/slide5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="serf">
+                                <img src="./assets/img/certificate/slide6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq container">
+            <h2>Часто задаваемые вопросы</h2>
+            <div class="faq-content">
+                <div class="faq-content__item">
+                    <div class="faq-content__item-question">
+                        <span>Что нужно, чтобы подготовиться к уборке?</span>
+                        <button>
+                            <img src="./assets/img/faq/arrow-down.svg" alt="arrow">
+                        </button>
+                    </div>
+                    <div class="faq-content__item-answer">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo tempore aspernatur minima vero placeat, odit ducimus temporibus! Hic laudantium doloremque tenetur excepturi cum id, nihil esse ea dicta? Obcaecati voluptatum maxime sunt quae ad eos blanditiis explicabo sapiente ullam, quos officia ab quisquam consequatur nam autem id delectus magni quidem quo omnis beatae, quis ratione porro. Ullam ducimus quos, dignissimos voluptatem voluptatibus exercitationem nulla quo aperiam accusantium maiores minus eligendi!
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-content__item">
+                    <div class="faq-content__item-question">
+                        <span>Могу ли я быть дома во время уборки?</span>
+                        <button>
+                            <img src="./assets/img/faq/arrow-down.svg" alt="arrow">
+                        </button>
+                    </div>
+                    <div class="faq-content__item-answer">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore nesciunt inventore, dignissimos accusantium numquam provident enim deleniti. Sunt culpa ipsa aliquam eos libero, architecto illo officiis quaerat nobis repellendus quam minus odit suscipit consequatur fuga quae iusto commodi sed porro doloribus earum, possimus magni tenetur exercitationem? Repudiandae sapiente reprehenderit, iusto molestias perferendis enim sint amet asperiores recusandae consequatur praesentium, magnam facilis quaerat! Quidem molestiae, esse similique excepturi odio quaerat!
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-content__item">
+                    <div class="faq-content__item-question">
+                        <span>Сколько времени длится уборка?</span>
+                        <button>
+                            <img src="./assets/img/faq/arrow-down.svg" alt="arrow">
+                        </button>
+                    </div>
+                    <div class="faq-content__item-answer">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facere temporibus pariatur maxime necessitatibus rem ab perspiciatis veniam officiis voluptatibus, accusamus soluta hic, neque nemo, deserunt aperiam dolores error numquam harum sed. Fuga explicabo minima laudantium similique distinctio officia commodi quae error temporibus voluptatibus ducimus, quos atque sunt laboriosam et amet magni dolor dolorem illum dignissimos ipsum? Aut magni laboriosam mollitia aspernatur alias, quibusdam, at ducimus expedita iste dolorem modi?
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-content__item">
+                    <div class="faq-content__item-question">
+                        <span>За сколько дней до приезда клинеров необходимо сделать заказ?</span>
+                        <button>
+                            <img src="./assets/img/faq/arrow-down.svg" alt="arrow">
+                        </button>
+                    </div>
+                    <div class="faq-content__item-answer">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius saepe excepturi ut reprehenderit corrupti dignissimos beatae harum modi consectetur, amet culpa! Veniam consectetur obcaecati nesciunt error ducimus, minima sapiente corrupti incidunt, soluta excepturi molestias consequuntur voluptas id provident amet ex rem. Necessitatibus quibusdam dolores distinctio sed mollitia explicabo est quaerat consectetur amet facere nulla hic provident doloribus repellat, accusantium adipisci sunt odio expedita recusandae dicta ex. Laboriosam sint mollitia aliquid.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-content__item">
+                    <div class="faq-content__item-question">
+                        <span>Какие моющие средства вы используете?</span>
+                        <button>
+                            <img src="./assets/img/faq/arrow-down.svg" alt="arrow">
+                        </button>
+                    </div>
+                    <div class="faq-content__item-answer">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugit atque, neque tempora in laudantium quibusdam, ipsa explicabo consequatur error tenetur a ab voluptatem temporibus, amet laborum doloribus quis corrupti ipsum quidem. Magnam sapiente laboriosam, veritatis debitis eius ut nisi distinctio soluta ipsum perferendis, saepe repellat quo dignissimos aspernatur exercitationem eveniet in, velit molestiae! Distinctio veniam corrupti ut sequi neque architecto aperiam quasi dolores aspernatur cupiditate, iusto enim deserunt! Laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer container">
+            <a href="#">
+                <img src="./assets/img/Лого.svg" alt="#">
+            </a>
+            <div class="footer-nav">
+                <a href="#">Реквизиты</a>
+                <a href="#">Политика конфиденциальности</a>
+                <div class="social-network">
+                    <a class="network__title">Быстрая связь:</a>
+                    <img src="./assets/img/header/telegram.svg" alt="">
+                    <img src="./assets/img/header/whatsapp.svg" alt="">
+                </div>
+                <a href="#">Разработка сайта: Halekov Design</a>
+            </div>
+        </footer>
+
+    </div>
 
 
 
-  <script src="./assets/js/all.min.js"></script>
-  <script src="./assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/all.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

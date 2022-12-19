@@ -1,9 +1,15 @@
+// гамбургер шапки
+
+
 let hamburger = document.querySelector('.hamburger');
 let nav = document.querySelector('.nav-collapse');
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   nav.classList.toggle('active');
 })
+
+
+// переключатель по кнопкам
 
 let tabsBtn = document.querySelectorAll('.tabs-btn');
 let actives = document.getElementsByClassName('active');
@@ -19,6 +25,7 @@ for (i = 0; tabsBtn.length > i; i++) {
 }
 
 
+// переключатель по картинам
 
 const tabs = document.querySelectorAll(".tab");
 const tabContent = document.querySelectorAll(".tab-content");
@@ -49,3 +56,11 @@ tabContent.forEach((content) => {
   content.dataset.id = contentNo;
   contentNo++;
 });
+
+let question = document.querySelectorAll('.faq-content__item');
+
+    for (let i = 0; i < question.length; i++) {
+      question[i].addEventListener('click', () => {
+        question[i].classList.toggle('active');
+      })
+    }

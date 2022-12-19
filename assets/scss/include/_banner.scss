@@ -49,13 +49,27 @@
         border-radius: 100px;
         color: #fff;
         transition: .6s all;
+        width: 300px;
       }
       button:hover{
         transform: scale(0.9);
         background:#247fc9;
       }
-      button:nth-child(2){
+      a:nth-child(2){
         background: var(--color-yellow-400);
+        width: 300px;
+      }
+      a{
+        padding: 30px 50px;
+        background: var(--color-blue-200);
+        box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+        border-radius: 100px;
+        color: #fff;
+        transition: .6s all;
+        width: 300px;
+      }
+      a:hover{
+        transform: scale(0.9);
       }
     }
   }
