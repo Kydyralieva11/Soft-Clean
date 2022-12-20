@@ -499,6 +499,10 @@ body {
   border-radius: 100px;
   padding: 25px 66px;
   margin-top: 20px;
+  transition: 0.6s all;
+}
+.advertising .advertising-content .advertising-items .advertising-registy button:hover {
+  transform: scale(0.9);
 }
 .advertising .advertising-content .advertising-items .advertising-btns {
   display: flex;
@@ -515,6 +519,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.6s all;
+}
+.advertising .advertising-content .advertising-items .advertising-btns a:hover {
+  transform: scale(0.9);
 }
 .advertising .advertising-content .advertising-items .advertising-check {
   display: flex;
@@ -1400,6 +1408,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.6s all;
+}
+.book .book-content .book-btns a:hover {
+  transform: scale(0.9);
 }
 .book .book-content .book-registretion {
   display: flex;
@@ -1726,6 +1738,16 @@ a {
 .cleaner .cleaner-items {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  align-items: center;
+  gap: 171px;
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+.cleaner .cleaner-items .cleaner-card-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 .cleaner .cleaner-items .cleaner-card-first .cleaner-card {
   box-sizing: border-box;
@@ -1750,16 +1772,22 @@ a {
 .cleaner .cleaner-items .cleaner-card-two {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 .cleaner .cleaner-items .cleaner-card-two .card-two-btns {
   display: flex;
   flex-direction: column;
   gap: 11px;
+  position: absolute;
+  top: 412px;
 }
 .cleaner .cleaner-items .cleaner-card-two .card-two-btns input {
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
+  background: var(--color-white-100);
+  border-radius: 100px;
   color: var(--color-gray-500);
   padding: 28px 55px;
 }
@@ -1776,6 +1804,10 @@ a {
   border-radius: 100px;
   padding: 25px 19px;
   width: 275px;
+  transition: 0.6s all;
+}
+.cleaner .cleaner-items .cleaner-card-two .card-two-btns button:hover {
+  transform: scale(0.9);
 }
 .cleaner .cleaner-items .cleaner-card-two .card-two-btns .cleaner-check {
   display: flex;
@@ -1794,6 +1826,24 @@ a {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 425px) {
+  .cleaner .cleaner-items {
+    gap: 74px;
+  }
+  .cleaner .cleaner-items .cleaner-card-two {
+    margin-bottom: 106px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cleaner .cleaner-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(312px, 1fr));
+    align-items: center;
+  }
+  .cleaner .cleaner-items .cleaner-card-two {
+    margin-top: -118px;
+  }
+}
 .discounts {
   background: radial-gradient(21.22% 47.72% at 62.34% 52.28%, #BCE1FF 0%, #43AAFF 100%), url(../img/bg4.png);
   background-size: cover;

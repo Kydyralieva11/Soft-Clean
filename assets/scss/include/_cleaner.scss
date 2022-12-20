@@ -18,7 +18,15 @@
     .cleaner-items{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px ,1fr));
+        align-items: center;
+        gap: 171px;
+        padding-top: 60px;
+        padding-bottom: 150px;
         .cleaner-card-first{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
             .cleaner-card{
                 box-sizing: border-box;
                 max-width: 208px;
@@ -43,14 +51,20 @@
         .cleaner-card-two{
             display: flex;
             flex-direction: column;
+            align-items: center;
+            position: relative;
             .card-two-btns{
                 display: flex;
                 flex-direction: column;
                 gap: 11px;
+                position: absolute;
+                top: 412px;
                 input{
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 100%;
+                    background: var(--color-white-100);
+                    border-radius: 100px;
                     color: var(--color-gray-500);
                     padding: 28px 55px;
                 }
@@ -67,6 +81,10 @@
                     border-radius: 100px;
                     padding: 25px 19px;
                     width: 275px;
+                    transition: .6s all;
+                }
+                button:hover{
+                    transform: scale(0.9);
                 }
                 .cleaner-check{
                     display: flex;
@@ -84,6 +102,30 @@
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px){
+    .cleaner{
+        .cleaner-items{
+            gap: 74px;
+            .cleaner-card-two{
+                margin-bottom: 106px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cleaner{
+        .cleaner-items{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(312px ,1fr));
+            align-items: center;
+            .cleaner-card-two{
+                margin-top: -118px;
             }
         }
     }

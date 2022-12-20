@@ -43,6 +43,10 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                transition: .6s all;
+            }
+            a:hover{
+                transform: scale(0.9);
             }
         }
         .book-registretion{
