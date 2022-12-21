@@ -2,18 +2,6 @@
     background: var(--color-blue-100);
     padding: 3.125rem;
     margin-top: 3.125rem;
-    // ::before{
-    //     content: '';
-    //     position: absolute;
-    //     left: 0;
-    //     right: 0;
-    //     top: 100px;
-    //     right: 3px;
-    //     background: url('../img/ВерхнийШейп2.png') repeat-x;
-    //     background-position: center;
-    //     width: 100%;
-    //     height: 100px;
-    // }
     .examples-content{
         h2{
             font-weight: 500;
@@ -82,47 +70,47 @@
 
 
 .tab-container {
-    width: 100%;
-    margin-top: 3.125rem;
-  }
-  
-  .tabs {
-    display: flex;
-    overflow: scroll;
-  }
-  .tabs button {
-    width: 100%;
-    padding: 10px 20px;
-    border: 1px solid #fc7904;
-    cursor: pointer;
-    text-transform: uppercase;
-    background-color: #fc7904;
-    color: #fff;
-    opacity: 0.9;
-  }
-  .tabs button:hover {
-    opacity: 1;
-  }
-  .tabs .non-active {
-    opacity: 0.6;
-  }
-  
-  .tab-content {
-    padding: 10px 20px;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  a {
-    color: #fc7904;
-    text-decoration: none;
-  }
-  
-  .author {
-    position: absolute;
-    left: 35px;
-    top: 35px;
-    color: #fff;
-  }
+  width: 100%;
+  margin-top: 3.125rem;
+}
+
+.tabs {
+  display: flex;
+  overflow: scroll;
+}
+.tabs button {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #fc7904;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #fc7904;
+  color: #fff;
+  opacity: 0.9;
+}
+.tabs button:hover {
+  opacity: 1;
+}
+.tabs .non-active {
+  opacity: 0.6;
+}
+
+.tab-content {
+  padding: 10px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  color: #fc7904;
+  text-decoration: none;
+}
+
+.author {
+  position: absolute;
+  left: 35px;
+  top: 35px;
+  color: #fff;
+}
